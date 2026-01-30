@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  Simple
+
+  Created by Soha Elgaly on 29/01/2026.
+  
+*/
+
+
+// MARK: - Login Screen
+"login_title" = "مرحباً بك ";
+"phone_placeholder" = "رقم الهاتف";
+"password_placeholder" = "كلمة المرور";
+"sign_in" = "تسجيل الدخول";
+"register_button" = "إنشاء حساب";
+"no_account" = "ليس لديك حساب؟";
+"sign_in_action" = "دخول";
+
+// MARK: - Register Screen
+"register_title" = "إنشاء حساب جديد";
+"full_name_placeholder" = "الاسم الكامل";
+"email_placeholder" = "البريد الإلكتروني";
+"confirm_password_placeholder" = "تأكيد كلمة المرور";
+"create_account" = "تسجيل";
+"have_account" = "لديك حساب بالفعل؟";
+
+// MARK: - Validation Errors
+"error_empty_phone" = "رقم الهاتف مطلوب";
+"error_invalid_phone" = "الرجاء إدخال رقم هاتف صحيح";
+"error_empty_password" = "كلمة المرور مطلوبة";
+"error_weak_password" = "يجب أن تكون كلمة المرور 6 أحرف على الأقل";
+"error_empty_name" = "الاسم الكامل مطلوب";
+"error_short_name" = "يجب أن يكون الاسم حرفين على الأقل";
+"error_invalid_email" = "الرجاء إدخال بريد إلكتروني صحيح";
+"error_empty_email" = "البريد الإلكتروني مطلوب";
+"error_passwords_not_match" = "كلمات المرور غير متطابقة";
+"error_empty_confirm_password" = "الرجاء تأكيد كلمة المرور";
+"error_invalid_credentials" = "رقم الهاتف أو كلمة المرور غير صحيحة";
+"error_user_not_found" = "لا يوجد حساب. يرجى التسجيل أولاً.";
+// MARK: - Main View
+"home_tab" = "الرئيسية";
+"posts_tab" = "المنشورات";
+"settings" = "الإعدادات";
+
+// MARK: - Home Tab
+"horizontal_section_title" = "التقنيات";
+"vertical_section_title" = "جميع العناصر";
+"item" = "عنصر";
+"swipe_to_explore" = "مرّر للاستكشاف";
+// MARK: - Posts Tab
+"no_internet" = "لا يوجد اتصال بالإنترنت";
+"no_internet_message" = "يرجى التحقق من الاتصال والمحاولة مرة أخرى";
+"loading_posts" = "جاري تحميل المنشورات...";
+"offline_mode" = "عرض البيانات المحفوظة";
+"retry" = "إعادة المحاولة";
+"no_posts" = "لا توجد منشورات";
+
+// MARK: - Settings
+"language_section" = "اللغة";
+"current_language" = "اللغة الحالية";
+"change_language" = "English"; 
+"account_section" = "الحساب";
+"logout" = "تسجيل الخروج";
+"logout_confirmation" = "هل أنت متأكد من تسجيل الخروج؟";
+"cancel" = "إلغاء";
+"confirm" = "تأكيد";
+
+// MARK: - General
+"ok" = "حسناً";
+"error" = "خطأ";
+"success" = "نجح";
+"loading" = "جاري التحميل...";
+// Main View
+"home_tab" = "الرئيسية";
+"posts_tab" = "المنشورات";
+"settings" = "الإعدادات";
+
+// Home Tab
+"horizontal_section_title" = "مميز";
+"vertical_section_title" = "جميع العناصر";
+
+// Posts Tab
+"no_internet" = "لا يوجد اتصال بالإنترنت";
+"loading_posts" = "جاري التحميل...";
+"offline_mode" = "وضع عدم الاتصال";
+"retry" = "إعادة المحاولة";
+"no_posts" = "لا توجد منشورات";
+
+// Settings
+"language_section" = "اللغة";
+"current_language" = "اللغة الحالية";
+"change_language" = "English";
+"account_section" = "الحساب";
+"logout" = "تسجيل الخروج";
+"logout_confirmation" = "هل أنت متأكد من تسجيل الخروج؟";
+"cancel" = "إلغاء";

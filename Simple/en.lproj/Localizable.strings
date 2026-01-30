@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  Simple
+
+  Created by Soha Elgaly on 29/01/2026.
+  
+*/
+
+// MARK: - Login Screen
+"login_title" = "Welcome ";
+"phone_placeholder" = "Phone Number";
+"password_placeholder" = "Password";
+"sign_in" = "Sign In";
+"register_button" = "Create Account";
+"no_account" = "Don't have an account?";
+"sign_in_action" = "Sign In";
+
+// MARK: - Register Screen
+"register_title" = "Create Account";
+"full_name_placeholder" = "Full Name";
+"email_placeholder" = "Email Address";
+"confirm_password_placeholder" = "Confirm Password";
+"create_account" = "Register";
+"have_account" = "Already have an account?";
+
+// MARK: - Validation Errors
+"error_empty_phone" = "Phone number is required";
+"error_invalid_phone" = "Please enter a valid phone number";
+"error_empty_password" = "Password is required";
+"error_weak_password" = "Password must be at least 6 characters";
+"error_empty_name" = "Full name is required";
+"error_short_name" = "Name must be at least 2 characters";
+"error_invalid_email" = "Please enter a valid email address";
+"error_empty_email" = "Email is required";
+"error_passwords_not_match" = "Passwords don't match";
+"error_empty_confirm_password" = "Please confirm your password";
+"error_invalid_credentials"   = "Invalid phone or password";
+"error_user_not_found" = "No account found. Please register first.";
+// MARK: - Main View
+"home_tab" = "Home";
+"posts_tab" = "Posts";
+"settings" = "Settings";
+
+// MARK: - Home Tab
+"horizontal_section_title" = "Featured";
+"vertical_section_title" = "All Items";
+"item" = "Item";
+"swipe_to_explore" = "Swipe to explore";
+// MARK: - Posts Tab
+"no_internet" = "No Internet Connection";
+"no_internet_message" = "Please check your connection and try again";
+"loading_posts" = "Loading posts...";
+"offline_mode" = "Showing cached data";
+"retry" = "Retry";
+"no_posts" = "No posts available";
+
+// MARK: - Settings
+"language_section" = "Language";
+"current_language" = "Current Language";
+"change_language" = "العربية";
+"account_section" = "Account";
+"logout" = "Logout";
+"logout_confirmation" = "Are you sure you want to logout?";
+"cancel" = "Cancel";
+"confirm" = "Confirm";
+
+// MARK: - General
+"ok" = "OK";
+"error" = "Error";
+"success" = "Success";
+"loading" = "Loading...";
+// Main View
+"home_tab" = "Home";
+"posts_tab" = "Posts";
+"settings" = "Settings";
+
+// Home Tab
+"horizontal_section_title" = "Featured";
+"vertical_section_title" = "All Items";
+
+// Posts Tab
+"no_internet" = "No Internet Connection";
+"loading_posts" = "Loading posts...";
+"offline_mode" = "Offline Mode";
+"retry" = "Retry";
+"no_posts" = "No posts available";
+
+// Settings
+"language_section" = "Language";
+"current_language" = "Current Language";
+"change_language" = "العربية";
+"account_section" = "Account";
+"logout" = "Logout";
+"logout_confirmation" = "Are you sure you want to logout?";
+"cancel" = "Cancel";
