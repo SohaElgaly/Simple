@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SimpleApp: App {
+    @StateObject private var localization = LocalizationManager.shared
     var body: some Scene {
         WindowGroup {
             LoginView()
+                .environmentObject(localization)
         }
     }
 }

@@ -5,12 +5,11 @@
 //  Created by Soha Elgaly on 29/01/2026.
 //
 
-// SettingsView.swift
 import SwiftUI
 
 struct SettingsView: View {
     @Environment(\.presentationMode) var presentationMode
-    @ObservedObject var localization = LocalizationManager.shared
+    @EnvironmentObject var localization : LocalizationManager
     @StateObject private var authViewModel = AuthViewModel()
     @State private var showLogoutAlert = false
     
@@ -93,11 +92,14 @@ struct SettingsView: View {
                     secondaryButton: .cancel(Text(localization.loacalizedKey("cancel")))
                 )
             }
+            .environment(\.layoutDirection, localization.direction)
+            .id(localization.currentLang.rawValue)
         }
-        .environment(\.layoutDirection, localization.direction)
+    
     }
 }
 
 #Preview {
     SettingsView()
+        .environmentObject(LocalizationManager.shared)
 }

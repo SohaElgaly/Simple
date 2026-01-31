@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    @ObservedObject var localization = LocalizationManager.shared
+    @EnvironmentObject var localization: LocalizationManager
     @ObservedObject var vm = AuthViewModel()
     var body: some View {
         NavigationStack {
@@ -137,4 +137,5 @@ struct LoginView: View {
 
 #Preview {
     LoginView()
+        .environmentObject(LocalizationManager.shared)
 }

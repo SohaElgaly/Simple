@@ -9,8 +9,8 @@ import SwiftUI
 
 struct RegisterView: View {
     @Environment(\.presentationMode) var presentationMode
-      @ObservedObject var vm: AuthViewModel
-      @ObservedObject var localization = LocalizationManager.shared
+    @ObservedObject var vm: AuthViewModel
+    @EnvironmentObject var localization: LocalizationManager
       
 
       var body: some View {
@@ -233,4 +233,6 @@ struct RegisterView: View {
 
 #Preview {
     RegisterView(vm: AuthViewModel())
+        .environmentObject(LocalizationManager.shared)
+      
 }

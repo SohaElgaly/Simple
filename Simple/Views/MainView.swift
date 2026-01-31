@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainView: View {
-    @ObservedObject var localization = LocalizationManager.shared
+   @EnvironmentObject var localization: LocalizationManager
     @State private var selectedTab = 0
     @State private var showSettings = false
     
@@ -55,4 +55,5 @@ struct MainView: View {
 
 #Preview {
     MainView()
+        .environmentObject(LocalizationManager.shared)
 }
